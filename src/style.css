@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.font-yesteryear {
+    font-family: 'Yesteryear', cursive;
+}
+
 
 .scroll-hidden::-webkit-scrollbar {
     width: 0 !important
