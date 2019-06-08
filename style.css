@@ -7551,6 +7551,10 @@ video {
   z-index: auto;
 }
 
+.font-yesteryear {
+  font-family: 'Yesteryear', cursive;
+}
+
 .scroll-hidden::-webkit-scrollbar {
   width: 0 !important
 }
