@@ -6,7 +6,7 @@ _A static page leaderboard for our diplomacy games at work. Built using
 
 View it [here](https://alxwrd.github.io/diplomacy-leaderboard).
 
-## Scoring
+## Scoring <sup><sup>[:link:](http://www.diplomacy-archive.com/resources/ftf/fred_townsend.htm)</sup></sup>
 
 - Every player receives thier center count (but not more than 18).
 
