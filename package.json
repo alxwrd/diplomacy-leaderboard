@@ -13,7 +13,7 @@
     "url": "https://github.com/alxwrd/diplomacy-leaderboard/issues"
   },
   "scripts": {
-    "build": "npx tailwind build src/style.css -o build/style.css && cp src/index.html build/index.html",
+    "build": "npx tailwind build src/style.css -o build/style.css && cp src/index.html build/index.html && cp src/index.js build/index.js",
     "publish": "npm run build && gh-pages -d build"
   },
   "homepage": "https://github.com/alxwrd/diplomacy-leaderboard#readme",
