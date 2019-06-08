@@ -6,6 +6,11 @@ _A static page leaderboard for our diplomacy games at work. Built using
 
 View it [here](https://alxwrd.github.io/diplomacy-leaderboard).
 
+Currently you need to manually add the scores because [backstabbr](https://www.backstabbr.com/)
+doesn't have an API. I might add a `data.json` file to update the page with
+javascript, but games take about 2 months to play out so manually updating the
+scores like a pleb won't be too much work.
+
 ## Scoring <sup><sup>[:link:](http://www.diplomacy-archive.com/resources/ftf/fred_townsend.htm)</sup></sup>
 
 - Every player receives thier center count (but not more than 18).
