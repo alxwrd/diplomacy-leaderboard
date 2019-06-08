@@ -1,0 +1,24 @@
+{
+  "name": "diplomacy-leaderboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A leaderboard to track games of diplomacy of work",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alxwrd/diplomacy-leaderboard.git"
+  },
+  "author": "Alex Ward (alxwrd@googlemail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alxwrd/diplomacy-leaderboard/issues"
+  },
+  "scripts" : {
+    "build": "npx tailwind build src/style.css -o build/style.css && cp src/index.html build/index.html"
+  },
+  "homepage": "https://github.com/alxwrd/diplomacy-leaderboard#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "tailwindcss": "^1.0.3"
+  }
+}
