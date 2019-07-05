@@ -1,5 +1,4 @@
 
-
 window.onload = function() {
     let tagline = document.getElementById("tagline");
 
@@ -12,3 +11,12 @@ window.onload = function() {
     tagline.innerText = taglines[Math.floor(Math.random() * taglines.length)]
 
 }
+
+import App from './App.svelte';
+import './utils.css';
+
+const app = new App({
+  target: document.body,
+});
+
+export default app;
