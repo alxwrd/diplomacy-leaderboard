@@ -1,9 +1,8 @@
 <script>
- 
-import GameCard from './GameCard.svelte'
-import Title from './Title.svelte'
+  import GameCard from "./GameCard.svelte";
+  import Title from "./Title.svelte";
 
-
+  import PlayerPosition from "./PlayerPosition.svelte";
 </script>
 
 <div class="flex flex-col lg:flex-row lg:h-auto">
@@ -14,64 +13,23 @@ import Title from './Title.svelte'
     text-center block h-full">
     <Title />
 
-    <div
-      class="text-2xl sm:text-3xl flex rounded shadow-md bg-white -mx-3 mb-6
-      h-24">
-      <div class="w-1/4 my-auto font-bold text-yellow-400">
-        <i class="fas fa-trophy" />
-        <div>1st</div>
-      </div>
-      <div class="w-1/2 my-auto">Adam</div>
-      <div class="w-1/4 my-auto">119 pts</div>
-    </div>
-    <div class="flex h-16">
-      <div class="w-1/4 my-auto font-bold text-sm text-gray-400">
-        <i class="fas fa-trophy" />
-        <div>2nd</div>
-      </div>
-      <div class="w-1/2 my-auto">Jill</div>
-      <div class="w-1/4 my-auto">68 pts</div>
-    </div>
-    <div class="flex h-16">
-      <div class="w-1/4 my-auto font-bold text-sm text-orange-400">
-        <i class="fas fa-trophy" />
-        <div>3rd</div>
-      </div>
-      <div class="w-1/2 my-auto">Alex</div>
-      <div class="w-1/4 my-auto">67 pts</div>
-    </div>
-    <div class="flex h-16">
-      <div class="w-1/4 my-auto font-bold text-sm">4th</div>
-      <div class="w-1/2 my-auto">Steven</div>
-      <div class="w-1/4 my-auto">3 pt</div>
-    </div>
-    <div class="flex h-16">
-      <div class="w-1/4 my-auto font-bold text-sm">5th</div>
-      <div class="w-1/2 my-auto">Guillermo</div>
-      <div class="w-1/4 my-auto">2 pt</div>
-    </div>
-    <div class="flex h-16">
-      <div class="w-1/4 my-auto font-bold text-sm">6th</div>
-      <div class="w-1/2 my-auto">Chris</div>
-      <div class="w-1/4 my-auto">1 pts</div>
-    </div>
-    <div class="flex h-16">
-      <div class="w-1/4 my-auto font-bold text-sm">6th</div>
-      <div class="w-1/2 my-auto">Dale</div>
-      <div class="w-1/4 my-auto">1 pts</div>
-    </div>
-    <div class="flex h-16">
-      <div class="w-1/4 my-auto font-bold text-sm">7th</div>
-      <div class="w-1/2 my-auto">Lewis</div>
-      <div class="w-1/4 my-auto">-1 pts</div>
-    </div>
+    <PlayerPosition position="1st" name="Adam" points="119" />
+    <PlayerPosition position="2nd" name="Jill" points="68" />
+    <PlayerPosition position="3rd" name="Alex" points="67" />
+    <PlayerPosition position="4th" name="Steven" points="3" />
+    <PlayerPosition position="5th" name="Guillermo" points="2" />
+    <PlayerPosition position="6th" name="Chris" points="1" />
+    <PlayerPosition position="6th" name="Dale" points="1" />
+    <PlayerPosition position="7th" name="Lewis" points="-1" />
   </div>
 
   <div class="w-auto lg:w-1/4 m-4 p-4 bg-gray-100 rounded shadow-lg">
-    <!-- <div class="mb-4">
+    <!--
+    <div class="mb-4">
         <p class="text-3xl font-semibold">Upcoming Game</p>
 
-      </div> -->
+    </div>
+    -->
 
     <div class="mb-4">
       <p class="text-3xl font-semibold">Current Game</p>
