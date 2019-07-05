@@ -161,4 +161,10 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Svelte
+public/bundle.*
+public/components.css
+public/components.css.map
+public/utils.css
+
 # End of https://www.gitignore.io/api/vim,node,linux,windows,visualstudiocode

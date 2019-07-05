@@ -1,14 +1,9 @@
 
+import App from './App.svelte';
+import './utils.css';
 
-window.onload = function() {
-    let tagline = document.getElementById("tagline");
+const app = new App({
+  target: document.body,
+});
 
-    let taglines = [
-        "I hope we can still be friends",
-        "All's fair in work and war",
-        "It's nothing personal",
-    ];
-
-    tagline.innerText = taglines[Math.floor(Math.random() * taglines.length)]
-
-}
+export default app;
