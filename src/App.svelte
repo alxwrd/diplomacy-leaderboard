@@ -1,6 +1,8 @@
 <script>
  
 import GameCard from './GameCard.svelte'
+import Title from './Title.svelte'
+
 
 </script>
 
@@ -10,10 +12,7 @@ import GameCard from './GameCard.svelte'
   <div
     class="w-auto lg:w-2/4 m-4 bg-gray-100 rounded shadow-lg text-l sm:text-xl
     text-center block h-full">
-    <div class="text-center pt-4 pb-8">
-      <p class="text-6xl font-semibold font-yesteryear">Diplomacy</p>
-      <p class="text-sm" id="tagline" />
-    </div>
+    <Title />
 
     <div
       class="text-2xl sm:text-3xl flex rounded shadow-md bg-white -mx-3 mb-6
