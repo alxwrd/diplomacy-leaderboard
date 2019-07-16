@@ -34,14 +34,18 @@
     <div class="mb-4">
       <p class="text-3xl font-semibold">Current Game</p>
       <GameCard
-        title="There can be only one"
-        image="https://i.imgur.com/9YVLyBc.png"
-        url="There-can-be-only-one/4898731797774336" />
+        title="War never changes"
+        image="https://i.imgur.com/8cJkBGy.png"
+        url="War-never-changes/5949957893259264" />
     </div>
 
     <div class="mb-4">
       <p class="text-3xl font-semibold">Previous Games</p>
 
+      <GameCard
+        title="There can be only one"
+        image="https://i.imgur.com/9YVLyBc.png"
+        url="There-can-be-only-one/4898731797774336" />
       <GameCard
         title="I'm the captain now"
         image="https://i.imgur.com/m3IM0XJ.png"
