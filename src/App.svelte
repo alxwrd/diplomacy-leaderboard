@@ -13,14 +13,14 @@
     text-center block h-full">
     <Title />
 
-    <PlayerPosition position="1st" name="Adam" points="119" />
-    <PlayerPosition position="2nd" name="Jill" points="68" />
-    <PlayerPosition position="3rd" name="Alex" points="67" />
-    <PlayerPosition position="4th" name="Steven" points="3" />
-    <PlayerPosition position="5th" name="Guillermo" points="2" />
-    <PlayerPosition position="6th" name="Chris" points="1" />
-    <PlayerPosition position="6th" name="Dale" points="1" />
-    <PlayerPosition position="7th" name="Lewis" points="-1" />
+    <PlayerPosition position="1st" name="Adam" points="117" />
+    <PlayerPosition position="2nd" name="Jill" points="109" />
+    <PlayerPosition position="3rd" name="Alex" points="106" />
+    <PlayerPosition position="4th" name="Steven" points="48" />
+    <PlayerPosition position="5th" name="Chris" points="3" />
+    <PlayerPosition position="6th" name="Guillermo" points="2" />
+    <PlayerPosition position="7th" name="Dale" points="1" />
+    <PlayerPosition position="8th" name="Lewis" points="-1" />
   </div>
 
   <div class="w-auto lg:w-1/4 m-4 p-4 bg-gray-100 rounded shadow-lg">
