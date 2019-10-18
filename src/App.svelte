@@ -25,14 +25,18 @@
   </div>
 
   <div class="w-auto lg:w-1/4 m-4 p-4 bg-gray-100 rounded shadow-lg">
-    <div class="mb-4">
+    <!-- <div class="mb-4">
       <p class="text-3xl font-semibold">Upcoming Game</p>
 
-    </div>
-
-    <!-- <div class="mb-4">
-      <p class="text-3xl font-semibold">Current Game</p>
     </div> -->
+
+    <div class="mb-4">
+      <p class="text-3xl font-semibold">Current Game</p>
+      <GameCard
+        title="Some advice: stay alive"
+        image="https://i.imgur.com/jXrFnVX.png"
+        url="Some-advice-stay-alive/4977142448783360/invite/MAMAQI" />
+    </div>
 
     <div class="mb-4">
       <p class="text-3xl font-semibold">Previous Games</p>
@@ -40,7 +44,7 @@
       <GameCard
         title="War has changed"
         image="https://i.imgur.com/AzWJ3zJ.png"
-        url="War-has-changed/5881352149270528/invite/LIL35K" />
+        url="War-has-changed/5881352149270528" />
       <GameCard
         title="War never changes"
         image="https://i.imgur.com/8cJkBGy.png"
