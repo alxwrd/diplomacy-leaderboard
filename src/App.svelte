@@ -19,8 +19,7 @@
     <PlayerPosition position="4th" name="" points="" />
     <PlayerPosition position="5th" name="" points="" />
     <PlayerPosition position="6th" name="" points="" />
-    <PlayerPosition position="6th" name="" points="" />
-    <PlayerPosition position="8th" name="" points="" />
+    <PlayerPosition position="7th" name="" points="" />
 
     <!-- Previous Season
     <PlayerPosition position="1st" name="Adam" points="240" />
