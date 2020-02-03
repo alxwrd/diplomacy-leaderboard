@@ -13,6 +13,16 @@
     text-center block h-full">
     <Title />
 
+    <PlayerPosition position="1st" name="" points="" />
+    <PlayerPosition position="2nd" name="" points="" />
+    <PlayerPosition position="3rd" name="" points="" />
+    <PlayerPosition position="4th" name="" points="" />
+    <PlayerPosition position="5th" name="" points="" />
+    <PlayerPosition position="6th" name="" points="" />
+    <PlayerPosition position="6th" name="" points="" />
+    <PlayerPosition position="8th" name="" points="" />
+
+    <!-- Previous Season
     <PlayerPosition position="1st" name="Adam" points="240" />
     <PlayerPosition position="2nd" name="Jill" points="226" />
     <PlayerPosition position="3rd" name="Alex" points="110" />
@@ -22,6 +32,7 @@
     <PlayerPosition position="6th" name="James" points="2" />
     <PlayerPosition position="8th" name="Dale" points="1" />
     <PlayerPosition position="9th" name="Lewis" points="-1" />
+    -->
   </div>
 
   <div class="w-auto lg:w-1/4 m-4 p-4 bg-gray-100 rounded shadow-lg">
@@ -35,12 +46,13 @@
       <GameCard
         title="Some advice: stay alive"
         image="https://i.imgur.com/jXrFnVX.png"
-        url="Some-advice-stay-alive/4977142448783360/invite/MAMAQI" />
+        url="Some-advice-stay-alive/6701110222389248/invite/2J2G0G" />
     </div>
 
     <div class="mb-4">
-      <p class="text-3xl font-semibold">Previous Games</p>
+      <!-- <p class="text-3xl font-semibold">Previous Games</p> -->
 
+      <!-- Previous games
       <GameCard
         title="War has changed"
         image="https://i.imgur.com/AzWJ3zJ.png"
@@ -65,6 +77,7 @@
         title="As yet untitled"
         image="https://upload.wikimedia.org/wikipedia/en/3/3f/As_Yet_Untitled.jpg"
         url="As-yet-untitled/5981894724812800" />
+      -->
     </div>
   </div>
 </div>
